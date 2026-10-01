@@ -1,5 +1,4 @@
 import requests
-import pyperclip
 import smtplib
 import os
 
@@ -23,7 +22,6 @@ parameters = {
 forecast = requests.get("https://api.openweathermap.org/data/2.5/forecast", params= parameters)
 forecast.raise_for_status()
 weather_data = forecast.json()
-pyperclip.copy(weather_data)
 """total = weather_data["list"][0]["weather"][0]["id"] + weather_data["list"][1]["weather"][0]["id"] + weather_data["list"][2]["weather"][0]["id"] + weather_data["list"][3]["weather"][0]["id"]
 
 if total/4 < 800:
