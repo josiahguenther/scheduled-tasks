@@ -2,7 +2,7 @@ import requests
 import smtplib
 import os
 
-API_KEY = "618419268a6ac434cf26d53da3be8356"
+API_KEY = "API_KEY"
 MY_LAT = 33.908989
 MY_LONG = -118.009949
 will_rain = False
