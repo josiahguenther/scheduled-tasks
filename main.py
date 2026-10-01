@@ -1,15 +1,16 @@
 import requests
 import pyperclip
 import smtplib
+import os
 
 API_KEY = "618419268a6ac434cf26d53da3be8356"
-#MY_LAT = 33.908989 # Your latitude
-#MY_LONG = -118.009949
-MY_LAT = 38.878208
-MY_LONG = -99.317833
+MY_LAT = 33.908989
+MY_LONG = -118.009949
 will_rain = False
-my_email = "josiah.guenther2@gmail.com"
-password = "baji lowo phix caqn"
+my_email = os.environ.get("EMAIL")
+"josiah.guenther2@gmail.com"
+password = os.environ.get("PASSWORD")
+"baji lowo phix caqn"
 
 
 parameters = {
