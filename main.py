@@ -6,10 +6,8 @@ API_KEY = "618419268a6ac434cf26d53da3be8356"
 MY_LAT = 33.908989
 MY_LONG = -118.009949
 will_rain = False
-my_email = os.environ.get("EMAIL")
-"josiah.guenther2@gmail.com"
-password = os.environ.get("PASSWORD")
-"baji lowo phix caqn"
+my_email = os.environ.get("MY_EMAIL")
+password = os.environ.get("MY_PASSWORD")
 
 
 parameters = {
