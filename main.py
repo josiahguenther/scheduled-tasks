@@ -2,7 +2,7 @@ import requests
 import smtplib
 import os
 
-API_KEY = "API_KEY"
+API_KEY = os.environ.get("API_KEY")
 MY_LAT = 33.908989
 MY_LONG = -118.009949
 will_rain = False
